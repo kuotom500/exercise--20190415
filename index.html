@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>飛肯</title>
+   <link href="layout.css" rel="stylesheet" type="text/css"/>
+   <style>
+    @import url("reset.css");
+    /* 【步驟三】重複背景圖片-水平式(x軸) */
+   body{
+      background-color:#030;
+      background-image:url(x2.png);
+      background-repeat:repeat-x;
+      background-position:left bottom;
+      background-attachment:fixed; 
+      background-bottom:50px;
+   }
+   #BOX{
+   width: 760px;
+   font-family: Arial, Helvetica, sans-serif,"微軟正黑體";
+   margin-left: auto;
+   margin-right: auto;
+   }
+   /* 垂直式( y 軸)重複背景圖片，就是寫在 # CONTENT 裡面喔。 */
+   #CONTENT{
+      background-image:url(y2.png);
+      background-repeat:repeat-y;
+      background-position:left top;
+   }
+   #INBOX{
+   padding-top: 40px;
+   padding-left: 40px;
+   padding-right: 40px;
+/* 如何利用 background-color 語法的參數，來設定背景的「不透明度」喔。 */
+   background-color:rgba(255,255,255,0.7);
+   margin-left:55px;
+} 
+   h1{
+      color: #fff;
+      font-size: 40px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: right;
+      padding-top: 40px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      
+   }
+   b{
+      color: #3cf
+   }
+   p{
+      font-size: 15px;
+      line-height: 1.6;
+      text-align: justify;
+      text-indent: 2em;
+      padding-bottom: px;
+   }
+   </style>
+</head>
+<body>
+<div id="BOX">
+      <h1>Flycan<b> Responsive Web Design </b></h1>
+      <div id="CONTENT">
+      <div id="INBOX">
+         <P> 
+            這個RWD教學課程有大量的實作範例讓同學練習，（RWD 中文翻譯：響應式網頁設計，自適應網頁設計，回應式網頁設計）都市針對iphone 和 Android 智慧型手機還有Ipad和Android平板電腦鎖量身定做的網頁版型設計案例，RWD教學主要會使用 HTML5 語法作為網頁的主結構，搭配 CSS3 新語法來排版，對於不同尺寸大小的手機或是平板電腦，設計彈性伸縮的響應式網頁版型，可以讓同一套網頁在電腦上正常瀏覽，遇到平板電腦時會自動轉換成適合平板電腦大小的版型，遇到手機時也會再自動轉換成適合手機大小的版型，做到真正的跨平台網頁設計，最後還會提到 CSS3 新的動態網頁效果...等。
+         </P>
+      </div>
+      </div>
+</div>
+
+
+
+<link href="http://www.flycan.com/article/css/background-repeat-2413.html"
+</body>
+</html>
